@@ -15,7 +15,7 @@
         "yiisoft/yii2": "~2.0.0",
         "yiisoft/yii2-bootstrap5": "~2.0.4",
         "almasaeed2010/adminlte": "~3.2",
-        "soareseneves/yii2-adminlte-widgets": "~1.0.2"
+        "soareseneves/yii2-adminlte-widgets": "*"
     },
     "autoload": {
         "psr-4": {
