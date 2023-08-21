@@ -1,5 +1,5 @@
 <?php
-namespace hail812\adminlte3\assets;
+namespace soareseneves\adminlte3\assets;
 
 use yii\web\AssetBundle;
 
@@ -8,7 +8,7 @@ class PluginAsset extends AssetBundle
     public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
 
     public $depends = [
-        'hail812\adminlte3\assets\BaseAsset'
+        'soareseneves\adminlte3\assets\BaseAsset'
     ];
 
     public static $pluginMap = [
@@ -56,6 +56,6 @@ class PluginAsset extends AssetBundle
      */
     private function getPluginConfig($name)
     {
-        return \Yii::$app->params['hail812/yii2-adminlte3']['pluginMap'][$name] ?? self::$pluginMap[$name] ?? null;
+        return \Yii::$app->params['soareseneves/yii2-adminlte3']['pluginMap'][$name] ?? self::$pluginMap[$name] ?? null;
     }
 }
